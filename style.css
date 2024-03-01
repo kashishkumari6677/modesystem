@@ -1,0 +1,29 @@
+:root{
+    --bgprimary:#fff;
+    --secondaryColor:#000;
+    --bgALice: aliceblue;
+    --cardSize:20%;
+}
+body{
+    background-color: var(--bgprimary);
+    color: var(--secondaryColor);
+}
+.dark{
+    --bgprimary:#000;
+    --secondaryColor:#fff;
+    --bgALice: rgb(20, 138, 242);
+    --cardSize:30%;
+}
+.card{
+    border: 2px solid green;
+    background-color:var(--bgALice);
+    width:var(--cardSize);
+}
+.mode{
+    all: unset;
+    width: 50px;
+    cursor: pointer;
+}
+.mode img{
+    width: 100%;
+}
